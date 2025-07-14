@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2e3b4e;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.alert-box {
+  background-color: #fff3cd;
+  border-left: 6px solid #ffc107;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.call-to-action {
+  text-align: center;
+  margin: 2rem;
+}
+
+.live-call-button {
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2e3b4e;
+  color: white;
+  margin-top: 2rem;
+}
+
+/* --- Launch screen styles --- */
+.launch-screen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.launch-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.live-call-button-overlay {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
